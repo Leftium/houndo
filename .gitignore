@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.gg/
+.houndo/
+coverage/
+dist/
+node_modules/
