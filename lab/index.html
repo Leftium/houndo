@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houndo CSS Lab</title>
+    <link rel="stylesheet" href="/src/lab/styles.css">
+  </head>
+  <body>
+    <header class="lab-header">
+      <div>
+        <p class="eyebrow">Houndo CSS Lab</p>
+        <h1 id="lab-title">Waiting for prepared work</h1>
+      </div>
+      <output id="lab-status" data-status="waiting">waiting</output>
+    </header>
+    <p id="lab-detail" class="lab-detail">
+      Run <code>pnpm houndo css prepare &lt;issue&gt; --capture &lt;capture&gt;</code>.
+    </p>
+    <main>
+      <iframe id="preview" title="Prepared Kagi search capture"></iframe>
+    </main>
+    <script type="module" src="/src/lab/main.js"></script>
+  </body>
+</html>
